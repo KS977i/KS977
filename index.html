@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <div class="lo">
+
+        
+
+    </div>
+
+    <meta charset="UTF-8">
+
+    <title>Termux |linux | kalilenux |Hack | ckrack |decrypt,decode|encrypt,encode|Python3 | python3</title>
+
+    </head>
+
+    <link rel="icon" href="logoo.jpg">
+
+    <link rel="stylesheet" href="l.css">
+
+    <pre id="log"><b><i><u>< KS - 997></u></i></b></pre>
+
+    <h1 id="logo"><span>Welcome</span> To My Website : <span>< KS - 977 ></span><hr color="black"></h1>
+
+    <pre><h1><li>Encrypt {and} Decrypt a File Python</li></h1></pre>
+
+   <div class="ul">
+
+     <pre><h2>
+
+     <li>Encrypt base64   {And}   Decrypt base64</li>
+
+     <li>Encrypt base85   {And}   Decrypt base85</li>
+
+     <li>Encrypt base32   {And}   Decrypt base32</li>
+
+     <li>Encrypt base16   {And}   Decrypt base16</li>
+
+     </h2></pre>
+
+     </div>
+
+    <div class="sp">
+
+<pre id="sp"<h2><i><b>
+
+    <h1 id="en"><li>Decrypt a file Module base64</li></h1>
+
+ 
+
+ <h1>Language : [Python3]or[Python2]</h1>   
+
+    
+
+    <h1><font color="green">#Decrypt base64</font></h1>
+
+   <hr color="black">
+
+<font color="red">import</font> os
+
+<font color="red">try:</font>
+
+<font color="red">  import </font>base64
+
+<font color="red">except:</font>
+
+   os.system(<font color="blue">'pip install base64'</font>)
+
+   
+
+<font color="green">#Decrypt My File</font>
+
+<font color="red">with</font> open(<font color="blue">'encrypt File'</font>,<font color='blue'>'r'</font>)<font color="red">as </font>File:
+
+   
+
+   readfile=File.read()
+
+decode=base64.b64decode(readfile)
+
+print(decode)
+
+<font color="red">with</font> open(<font color="blue">'Decrypt File'</font>,<font color='blue'>'wb'</font>)<font color="red">as </font>files:
+
+   
+
+   files.write(decode)
+
+<font color="green">#########################</font>
+
+   
+
+<font color="green">#Decrypt My data</font>
+
+data=b<font color="blue">'CgogcHl0aG9uCiAgCiAgICA='</font>
+
+print(base64.b64decode(data))
+
+<hr color="black ">
+
+    
+
+<h1 id="en"><li>Encrypt a file Module base64</li></h1>
+
+    
+
+<h1>Language : [Python3]or[Python2]</h1>
+
+<h1><font color="green">#Encrypt base64</font></h1>
+
+   <hr color="black">
+
+<font color="red">import</font> os
+
+<font color="red">try:</font>
+
+<font color="red">  import </font>base64
+
+<font color="red">except:</font>
+
+   os.system(<font color="blue">'pip install base64'</font>)
+
+<font color="green">#Encrypt My File</font>
+
+<font color="red">with</font> open(<font color="blue">'namefile'</font>,<font color='blue'>'r'</font>)<font color="red">as </font>file:
+
+   readfile=file.read()
+
+  
+
+encrypt=base64.b64encode(readfile.encode(<font color="blue">"utf-8"</font>))
+
+print(encrypt)
+
+<font color="red">with</font> open(<font color="blue">'enctypt File'</font>,<font color="blue">'w'</font>)<font color="red">as</font> F:
+
+   
+
+   F.write(f<font color="green">"""import base64
+
+       
+
+   \n##encrypt By K97
+
+   
+
+   \nexec(base64.b64decode({encrypt}))"""</font>)
+
+<font color="green">#########################</font>
+
+<font color="green">#Encrypt My data Python</font>
+
+data=<font color="green">"""
+
+ python
+
+  
+
+    """
+
+    </font>
+
+    
+
+encrypt=base64.b64encode(data.encode(<font color="blue">"utf-8"</font>))   
+
+      
+
+print(encrypt)
+
+<hr color="black ">
+
+<h1><font color="green">#Encrypt base85</font></h1>
+
+   <hr color="black">
+
+<font color="red">import</font> os
+
+<font color="red">try:</font>
+
+<font color="red">  import </font>base64
+
+<font color="red">except:</font>
+
+   os.system(<font color="blue">'pip install base64'</font>)
+
+<font color="green">#Encrypt My File</font>
+
+<font color="red">with</font> open(<font color="blue">'namefile'</font>,<font color='blue'>'r'</font>)<font color="red">as </font>file:
+
+   readfile=file.read()
+
+  
+
+encrypt=base64.b85encode(readfile.encode(<font color="blue">"utf-8"</font>))
+
+print(encrypt)
+
+<font color="red">with</font> open(<font color="blue">'enctypt File'</font>,<font color="blue">'w'</font>)<font color="red">as</font> F:
+
+   
+
+   F.write(f<font color="green">"""import base64
+
+       
+
+   \n##encrypt By K97
+
+   
+
+   \nexec(base64.b85decode({encrypt}))"""</font>)
+
+<font color="green">#########################</font>
+
+<font color="green">#Encrypt My data Python</font>
+
+data=<font color="green">"""
+
+ python
+
+  
+
+    """
+
+    </font>
+
+    
+
+encrypt=base64.b85encode(data.encode(<font color="blue">"utf-8"</font>))   
+
+      
+
+print(encrypt)
+
+<hr color="black ">
+
+<h1><font color="green">#Encrypt base32</font></h1>
+
+   <hr color="black">
+
+<font color="red">import</font> os
+
+<font color="red">try:</font>
+
+<font color="red">  import </font>base64
+
+<font color="red">except:</font>
+
+   os.system(<font color="blue">'pip install base64'</font>)
+
+<font color="green">#Encrypt My File</font>
+
+<font color="red">with</font> open(<font color="blue">'namefile'</font>,<font color='blue'>'r'</font>)<font color="red">as </font>file:
+
+   readfile=file.read()
+
+  
+
+encrypt=base64.b32encode(readfile.encode(<font color="blue">"utf-8"</font>))
+
+print(encrypt)
+
+<font color="red">with</font> open(<font color="blue">'enctypt File'</font>,<font color="blue">'w'</font>)<font color="red">as</font> F:
+
+   
+
+   F.write(f<font color="green">"""import base64
+
+       
+
+   \n##encrypt By K97
+
+   
+
+   \nexec(base64.b32decode({encrypt}))"""</font>)
+
+<font color="green">#########################</font>
+
+<font color="green">#Encrypt My data Python</font>
+
+data=<font color="green">"""
+
+ python
+
+  
+
+    """
+
+    </font>
+
+    
+
+encrypt=base64.b32encode(data.encode(<font color="blue">"utf-8"</font>))   
+
+      
+
+print(encrypt)
+
+<hr color="black ">
+
+<h1><font color="green">#Encrypt base16</font></h1>
+
+   <hr color="black">
+
+<font color="red">import</font> os
+
+<font color="red">try:</font>
+
+<font color="red">  import </font>base64
+
+<font color="red">except:</font>
+
+   os.system(<font color="blue">'pip install base64'</font>)
+
+<font color="green">#Encrypt My File</font>
+
+<font color="red">with</font> open(<font color="blue">'namefile'</font>,<font color='blue'>'r'</font>)<font color="red">as </font>file:
+
+   readfile=file.read()
+
+  
+
+encrypt=base64.b16encode(readfile.encode(<font color="blue">"utf-8"</font>))
+
+print(encrypt)
+
+<font color="red">with</font> open(<font color="blue">'enctypt File'</font>,<font color="blue">'w'</font>)<font color="red">as</font> F:
+
+   
+
+   F.write(f<font color="green">"""import base64
+
+       
+
+   \n##encrypt By K97
+
+   
+
+   \nexec(base64.b64decode({encrypt}))"""</font>)
+
+<font color="green">#########################</font>
+
+<font color="green">#Encrypt My data Python</font>
+
+data=<font color="green">"""
+
+ python
+
+  
+
+    """
+
+    </font>
+
+    
+
+encrypt=base64.b16encode(data.encode(<font color="blue">"utf-8"</font>))   
+
+      
+
+print(encrypt)
+
+<hr color="black ">
+
+</b></i></h2></pre>
+
+</div>
+
+<footer>
+
+      <p>Website {KS - 977}, Copyright &copy; 2019</p>
+
+    </footer>
+
+<body>
+
+</html>
+
