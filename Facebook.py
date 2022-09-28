@@ -11,7 +11,7 @@ os.system('clear')
 uuid=str(os.getuid())+str(os.getlogin())
 u="KS977"
 uid=u.join(uuid)
-req=requests.get('https://raw.githubusercontent.com/KS977i/id.text/main/Id.txt').text
+req=requests.get('https://raw.githubusercontent.com/KS977i/idlist/main/Id.txt').text
 if uid in req:
     print('\n \x1b[92mYOUR ID IS ACTIVE.........\n')
     sleep(2)
